@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(17, 107, 160);
+}
+
+.far {
+    color: #2ea00b;
+}
+
+.input-field input[type=text] + label, .materialize-textarea:focus:not([readonly]) + label {
+color: #2ea00b !important;
+}
+
+.input-field input[type=text], .materialize-textarea:focus:not([readonly]) {
+border-bottom: 1px solid #2ea00b !important;
+box-shadow: 0 1px 0 0 #2ea00b !important;
+}
+
+
+.input-field input[type=text]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+color: #2ea00b !important;
+}
+
+.input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
+border-bottom: 1px solid #2ea00b !important;
+box-shadow: 0 1px 0 0 #2ea00b !important;
+}
+
+
+.input-field input[type=number] + label, .materialize-numberarea:focus:not([readonly]) + label {
+    color: #2ea00b !important;
+}
+    
+.input-field input[type=number], .materialize-numberarea:focus:not([readonly]) {
+    border-bottom: 1px solid #2ea00b !important;
+    box-shadow: 0 1px 0 0 #2ea00b !important;
+}
+    
+    
+.input-field input[type=number]:focus + label, .materialize-numberarea:focus:not([readonly]) + label {
+    color: #2ea00b !important;
+}
+    
+.input-field input[type=number]:focus, .materialize-numberarea:focus:not([readonly]) {
+    border-bottom: 1px solid #2ea00b !important;
+    box-shadow: 0 1px 0 0 #2ea00b !important;
+}
+
+.bodymassindextable {
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 400px;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+}
+
+li {
+    list-style-type: none;
+}
+
+.first-row{
+    color: crimson;
+}
+
+.second-row {
+    color: rgb(181, 194, 5);
+}
+
+.third-row {
+    color: rgb(15, 214, 31);
+}
+
+.fourth-row{
+    color: rgb(181, 194, 5);
+}
+
+.fifth-row{
+    color: rgb(220, 167, 20);
+}
+
+.sixth-row{
+    color: rgb(190, 110, 4);
+}
+
+.seventh-row{
+    color: crimson;
+}
